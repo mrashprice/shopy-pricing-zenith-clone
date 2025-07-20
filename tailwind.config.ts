@@ -52,6 +52,35 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Shopify Brand Colors
+				shopify: {
+					green: 'hsl(var(--shopify-green))',
+					'green-light': 'hsl(var(--shopify-green-light))',
+					dark: 'hsl(var(--shopify-dark))',
+					blue: 'hsl(var(--shopify-blue))',
+					gray: {
+						100: 'hsl(var(--shopify-gray-100))',
+						200: 'hsl(var(--shopify-gray-200))',
+						300: 'hsl(var(--shopify-gray-300))',
+						400: 'hsl(var(--shopify-gray-400))',
+						500: 'hsl(var(--shopify-gray-500))',
+						600: 'hsl(var(--shopify-gray-600))',
+						700: 'hsl(var(--shopify-gray-700))',
+						800: 'hsl(var(--shopify-gray-800))',
+						900: 'hsl(var(--shopify-gray-900))',
+					}
+				},
+				// Button Colors
+				'btn-primary': 'hsl(var(--button-primary))',
+				'btn-primary-foreground': 'hsl(var(--button-primary-foreground))',
+				'btn-primary-hover': 'hsl(var(--button-primary-hover))',
+				'btn-secondary': 'hsl(var(--button-secondary))',
+				'btn-secondary-foreground': 'hsl(var(--button-secondary-foreground))',
+				'btn-secondary-hover': 'hsl(var(--button-secondary-hover))',
+				'btn-secondary-border': 'hsl(var(--button-secondary-border))',
+				'btn-success': 'hsl(var(--button-success))',
+				'btn-success-foreground': 'hsl(var(--button-success-foreground))',
+				'btn-success-hover': 'hsl(var(--button-success-hover))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +91,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'card-hover': 'var(--shadow-card-hover)',
+				'button': 'var(--shadow-button)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

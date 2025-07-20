@@ -2,41 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Shopify Design System - Enterprise Grade */
 
 @layer base {
   :root {
+    /* Shopify Brand Colors */
+    --shopify-green: 120 100% 32%;
+    --shopify-green-light: 120 100% 85%;
+    --shopify-dark: 0 0% 7%;
+    --shopify-gray-100: 0 0% 98%;
+    --shopify-gray-200: 0 0% 96%;
+    --shopify-gray-300: 0 0% 90%;
+    --shopify-gray-400: 0 0% 75%;
+    --shopify-gray-500: 0 0% 55%;
+    --shopify-gray-600: 0 0% 45%;
+    --shopify-gray-700: 0 0% 35%;
+    --shopify-gray-800: 0 0% 25%;
+    --shopify-gray-900: 0 0% 15%;
+    --shopify-blue: 216 100% 50%;
+    
+    /* System Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 0 0% 15%;
+    
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 0 0% 15%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --popover-foreground: 0 0% 15%;
+    
+    --primary: 120 100% 32%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 15%;
+    
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 15%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 0 0% 90%;
+    --input: 0 0% 100%;
+    --ring: 120 100% 32%;
+    
+    /* Button Variants */
+    --button-primary: 0 0% 7%;
+    --button-primary-foreground: 0 0% 100%;
+    --button-primary-hover: 0 0% 15%;
+    
+    --button-secondary: 0 0% 100%;
+    --button-secondary-foreground: 0 0% 7%;
+    --button-secondary-hover: 0 0% 96%;
+    --button-secondary-border: 0 0% 90%;
+    
+    --button-success: 120 100% 32%;
+    --button-success-foreground: 0 0% 100%;
+    --button-success-hover: 120 100% 28%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(165 84% 88%) 0%, hsl(180 90% 85%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 100%);
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+    --shadow-card-hover: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -2px hsl(0 0% 0% / 0.05);
+    --shadow-button: 0 1px 3px hsl(0 0% 0% / 0.12), 0 1px 2px hsl(0 0% 0% / 0.24);
+    
+    --radius: 0.375rem;
 
     --sidebar-background: 0 0% 98%;
 
